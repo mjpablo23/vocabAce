@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		282BFE0D15FB238B00DA79EF /* vocab_sat_9_7a.sql in Resources */ = {isa = PBXBuildFile; fileRef = 282BFE0C15FB238B00DA79EF /* vocab_sat_9_7a.sql */; };
+		2834519816006330003B5B9C /* SetWordListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2834519616006330003B5B9C /* SetWordListViewController.m */; };
+		2834519916006330003B5B9C /* SetWordListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2834519716006330003B5B9C /* SetWordListViewController.xib */; };
+		2843D89E15EEE7B800DA0513 /* stateModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2843D89D15EEE7B800DA0513 /* stateModel.m */; };
+		28523F6F1C668EE700750367 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28523F6E1C668EE700750367 /* Launch Screen.storyboard */; };
+		2852AA1C15E94C6700B4E865 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2852AA1B15E94C6700B4E865 /* UIKit.framework */; };
+		2852AA1E15E94C6700B4E865 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2852AA1D15E94C6700B4E865 /* Foundation.framework */; };
+		2852AA2015E94C6700B4E865 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2852AA1F15E94C6700B4E865 /* CoreGraphics.framework */; };
+		2852AA2615E94C6700B4E865 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2852AA2415E94C6700B4E865 /* InfoPlist.strings */; };
+		2852AA2815E94C6700B4E865 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2852AA2715E94C6700B4E865 /* main.m */; };
+		2852AA2C15E94C6700B4E865 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2852AA2B15E94C6700B4E865 /* AppDelegate.m */; };
+		2852AA2F15E94C6700B4E865 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2852AA2E15E94C6700B4E865 /* ViewController.m */; };
+		2852AA3215E94C6700B4E865 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2852AA3015E94C6700B4E865 /* ViewController_iPhone.xib */; };
+		2852AA3515E94C6800B4E865 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2852AA3315E94C6800B4E865 /* ViewController_iPad.xib */; };
+		2852AA4315E95D3B00B4E865 /* cardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2852AA4115E95D3B00B4E865 /* cardViewController.m */; };
+		2852AA4415E95D3B00B4E865 /* cardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2852AA4215E95D3B00B4E865 /* cardViewController.xib */; };
+		28532E6015FE916B00B71FC6 /* OptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28532E5E15FE916B00B71FC6 /* OptionsViewController.m */; };
+		28532E6115FE916B00B71FC6 /* OptionsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28532E5F15FE916B00B71FC6 /* OptionsViewController.xib */; };
+		28532E6615FE928700B71FC6 /* LanguagePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28532E6415FE928700B71FC6 /* LanguagePickerViewController.m */; };
+		28532E6715FE928700B71FC6 /* LanguagePickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28532E6515FE928700B71FC6 /* LanguagePickerViewController.xib */; };
+		28891C4915F966E200A59EC5 /* databaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 28891C4815F966E200A59EC5 /* databaseModel.m */; };
+		28891C4B15F96AF400A59EC5 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 28891C4A15F96AF400A59EC5 /* libsqlite3.0.dylib */; };
+		28AEAA1115F9C60A009EF1D7 /* vocab_sat_9_6f.sql in Resources */ = {isa = PBXBuildFile; fileRef = 28AEAA1015F9C60A009EF1D7 /* vocab_sat_9_6f.sql */; };
+		28AEAA1415F9D458009EF1D7 /* Word.m in Sources */ = {isa = PBXBuildFile; fileRef = 28AEAA1315F9D458009EF1D7 /* Word.m */; };
+		28BC6DFF15FBC2C400BD3485 /* setHashObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BC6DFE15FBC2C400BD3485 /* setHashObject.m */; };
+		28BDA45C15FDA8FE000A3D70 /* languageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BDA45B15FDA8FE000A3D70 /* languageModel.m */; };
+		28BDA46715FDC4F1000A3D70 /* sat_spanish_wordOnly_v2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 28BDA46615FDC4F1000A3D70 /* sat_spanish_wordOnly_v2.txt */; };
+		28BDA46915FDC572000A3D70 /* sat_chinese_wordOnly_v2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 28BDA46815FDC572000A3D70 /* sat_chinese_wordOnly_v2.txt */; };
+		28FEE3B51C4ACF7900740A0D /* sat_telugu_wordOnly.txt in Sources */ = {isa = PBXBuildFile; fileRef = 28FEE3B41C4ACF7900740A0D /* sat_telugu_wordOnly.txt */; };
+		28FEE3BA1C4AD60B00740A0D /* sat_arabic_wordOnly.txt in Sources */ = {isa = PBXBuildFile; fileRef = 28FEE3B91C4AD60B00740A0D /* sat_arabic_wordOnly.txt */; };
+		28FEE3D21C4AE87A00740A0D /* translated_arabicWithEnglish.txt in Resources */ = {isa = PBXBuildFile; fileRef = 28FEE3BC1C4AE87A00740A0D /* translated_arabicWithEnglish.txt */; };
+		28FEE3D31C4AE87A00740A0D /* translated_bengaliWithEnglish.txt in Resources */ = {isa = PBXBuildFile; fileRef = 28FEE3BD1C4AE87A00740A0D /* translated_bengaliWithEnglish.txt */; };
+		28FEE3D41C4AE87A00740A0D /* translated_chineseSimplifiedWithEnglish.txt in Resources */ = {isa = PBXBuildFile; fileRef = 28FEE3BE1C4AE87A00740A0D /* translated_chineseSimplifiedWithEnglish.txt */; };
+		28FEE3D51C4AE87A00740A0D /* translated_chineseTraditionalWithEnglish.txt in Resources */ = {isa = PBXBuildFile; fileRef = 28FEE3BF1C4AE87A00740A0D /* translated_chineseTraditionalWithEnglish.txt */; };
+		28FEE3D61C4AE87A00740A0D /* translated_filipinoWithEnglish.txt in Resources */ = {isa = PBXBuildFile; fileRef = 28FEE3C01C4AE87A00740A0D /* translated_filipinoWithEnglish.txt */; };
+		28FEE3D71C4AE87A00740A0D /* translated_frenchWithEnglish.txt in Resources */ = {isa = PBXBuildFile; fileRef = 28FEE3C11C4AE87A00740A0D /* translated_frenchWithEnglish.txt */; };
+		28FEE3D81C4AE87A00740A0D /* translated_germanWithEnglish.txt in Resources */ = {isa = PBXBuildFile; fileRef = 28FEE3C21C4AE87A00740A0D /* translated_germanWithEnglish.txt */; };
+		28FEE3D91C4AE87A00740A0D /* translated_hebrewWithEnglish.txt in Resources */ = {isa = PBXBuildFile; fileRef = 28FEE3C31C4AE87A00740A0D /* translated_hebrewWithEnglish.txt */; };
+		28FEE3DA1C4AE87A00740A0D /* translated_hindiWithEnglish.txt in Resources */ = {isa = PBXBuildFile; fileRef = 28FEE3C41C4AE87A00740A0D /* translated_hindiWithEnglish.txt */; };
+		28FEE3DB1C4AE87A00740A0D /* translated_japaneseWithEnglish.txt in Resources */ = {isa = PBXBuildFile; fileRef = 28FEE3C51C4AE87A00740A0D /* translated_japaneseWithEnglish.txt */; };
+		28FEE3DC1C4AE87A00740A0D /* translated_koreanWithEnglish.txt in Resources */ = {isa = PBXBuildFile; fileRef = 28FEE3C61C4AE87A00740A0D /* translated_koreanWithEnglish.txt */; };
+		28FEE3DD1C4AE87A00740A0D /* translated_malayWithEnglish.txt in Resources */ = {isa = PBXBuildFile; fileRef = 28FEE3C71C4AE87A00740A0D /* translated_malayWithEnglish.txt */; };
+		28FEE3DE1C4AE87A00740A0D /* translated_polishWithEnglish.txt in Resources */ = {isa = PBXBuildFile; fileRef = 28FEE3C81C4AE87A00740A0D /* translated_polishWithEnglish.txt */; };
+		28FEE3DF1C4AE87A00740A0D /* translated_portugeseWithEnglish.txt in Resources */ = {isa = PBXBuildFile; fileRef = 28FEE3C91C4AE87A00740A0D /* translated_portugeseWithEnglish.txt */; };
+		28FEE3E01C4AE87A00740A0D /* translated_punjabiWithEnglish.txt in Resources */ = {isa = PBXBuildFile; fileRef = 28FEE3CA1C4AE87A00740A0D /* translated_punjabiWithEnglish.txt */; };
+		28FEE3E11C4AE87A00740A0D /* translated_russianWithEnglish.txt in Resources */ = {isa = PBXBuildFile; fileRef = 28FEE3CB1C4AE87A00740A0D /* translated_russianWithEnglish.txt */; };
+		28FEE3E21C4AE87A00740A0D /* translated_spanishWithEnglish.txt in Resources */ = {isa = PBXBuildFile; fileRef = 28FEE3CC1C4AE87A00740A0D /* translated_spanishWithEnglish.txt */; };
+		28FEE3E31C4AE87A00740A0D /* translated_tamilWithEnglish.txt in Resources */ = {isa = PBXBuildFile; fileRef = 28FEE3CD1C4AE87A00740A0D /* translated_tamilWithEnglish.txt */; };
+		28FEE3E41C4AE87A00740A0D /* translated_teluguWithEnglish.txt in Resources */ = {isa = PBXBuildFile; fileRef = 28FEE3CE1C4AE87A00740A0D /* translated_teluguWithEnglish.txt */; };
+		28FEE3E51C4AE87A00740A0D /* translated_thaiWithEnglish.txt in Resources */ = {isa = PBXBuildFile; fileRef = 28FEE3CF1C4AE87A00740A0D /* translated_thaiWithEnglish.txt */; };
+		28FEE3E61C4AE87A00740A0D /* translated_urduWithEnglish.txt in Resources */ = {isa = PBXBuildFile; fileRef = 28FEE3D01C4AE87A00740A0D /* translated_urduWithEnglish.txt */; };
+		28FEE3E71C4AE87A00740A0D /* translated_vietnameseWithEnglish.txt in Resources */ = {isa = PBXBuildFile; fileRef = 28FEE3D11C4AE87A00740A0D /* translated_vietnameseWithEnglish.txt */; };
+		28FEE3EA1C4AFE9C00740A0D /* FindPlatformType.m in Sources */ = {isa = PBXBuildFile; fileRef = 28FEE3E91C4AFE9C00740A0D /* FindPlatformType.m */; };
+		28FEE3EF1C4B673C00740A0D /* hearts_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 28FEE3EB1C4B673C00740A0D /* hearts_1.png */; };
+		28FEE3F01C4B673C00740A0D /* hearts_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 28FEE3EC1C4B673C00740A0D /* hearts_2.png */; };
+		28FEE3F11C4B673C00740A0D /* hearts_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 28FEE3ED1C4B673C00740A0D /* hearts_3.png */; };
+		28FEE3F21C4B673C00740A0D /* hearts_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 28FEE3EE1C4B673C00740A0D /* hearts_0.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		282BFE0C15FB238B00DA79EF /* vocab_sat_9_7a.sql */ = {isa = PBXFileReference; lastKnownFileType = file; path = vocab_sat_9_7a.sql; sourceTree = "<group>"; };
+		2834519516006330003B5B9C /* SetWordListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SetWordListViewController.h; path = ../SetWordListViewController.h; sourceTree = "<group>"; };
+		2834519616006330003B5B9C /* SetWordListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SetWordListViewController.m; path = ../SetWordListViewController.m; sourceTree = "<group>"; };
+		2834519716006330003B5B9C /* SetWordListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SetWordListViewController.xib; path = ../SetWordListViewController.xib; sourceTree = "<group>"; };
+		2843D89C15EEE7B800DA0513 /* stateModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stateModel.h; sourceTree = "<group>"; };
+		2843D89D15EEE7B800DA0513 /* stateModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = stateModel.m; sourceTree = "<group>"; };
+		28523F6E1C668EE700750367 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		2852AA1715E94C6700B4E865 /* vocabAce.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vocabAce.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2852AA1B15E94C6700B4E865 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2852AA1D15E94C6700B4E865 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2852AA1F15E94C6700B4E865 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2852AA2315E94C6700B4E865 /* vocabAce-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "vocabAce-Info.plist"; sourceTree = "<group>"; };
+		2852AA2515E94C6700B4E865 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2852AA2715E94C6700B4E865 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2852AA2915E94C6700B4E865 /* vocabAce-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "vocabAce-Prefix.pch"; sourceTree = "<group>"; };
+		2852AA2A15E94C6700B4E865 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2852AA2B15E94C6700B4E865 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2852AA2D15E94C6700B4E865 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2852AA2E15E94C6700B4E865 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2852AA3115E94C6700B4E865 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		2852AA3415E94C6800B4E865 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		2852AA4015E95D3B00B4E865 /* cardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cardViewController.h; sourceTree = "<group>"; };
+		2852AA4115E95D3B00B4E865 /* cardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cardViewController.m; sourceTree = "<group>"; };
+		2852AA4215E95D3B00B4E865 /* cardViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = cardViewController.xib; sourceTree = "<group>"; };
+		28532E5D15FE916B00B71FC6 /* OptionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionsViewController.h; sourceTree = "<group>"; };
+		28532E5E15FE916B00B71FC6 /* OptionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptionsViewController.m; sourceTree = "<group>"; };
+		28532E5F15FE916B00B71FC6 /* OptionsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OptionsViewController.xib; sourceTree = "<group>"; };
+		28532E6315FE928700B71FC6 /* LanguagePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LanguagePickerViewController.h; sourceTree = "<group>"; };
+		28532E6415FE928700B71FC6 /* LanguagePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LanguagePickerViewController.m; sourceTree = "<group>"; };
+		28532E6515FE928700B71FC6 /* LanguagePickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LanguagePickerViewController.xib; sourceTree = "<group>"; };
+		28891C4715F966E200A59EC5 /* databaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = databaseModel.h; sourceTree = "<group>"; };
+		28891C4815F966E200A59EC5 /* databaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = databaseModel.m; sourceTree = "<group>"; };
+		28891C4A15F96AF400A59EC5 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		28AEAA1015F9C60A009EF1D7 /* vocab_sat_9_6f.sql */ = {isa = PBXFileReference; lastKnownFileType = file; path = vocab_sat_9_6f.sql; sourceTree = "<group>"; };
+		28AEAA1215F9D457009EF1D7 /* Word.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Word.h; sourceTree = "<group>"; };
+		28AEAA1315F9D458009EF1D7 /* Word.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Word.m; sourceTree = "<group>"; };
+		28BC6DFD15FBC2C400BD3485 /* setHashObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = setHashObject.h; sourceTree = "<group>"; };
+		28BC6DFE15FBC2C400BD3485 /* setHashObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = setHashObject.m; sourceTree = "<group>"; };
+		28BDA45A15FDA8FE000A3D70 /* languageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = languageModel.h; sourceTree = "<group>"; };
+		28BDA45B15FDA8FE000A3D70 /* languageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = languageModel.m; sourceTree = "<group>"; };
+		28BDA46615FDC4F1000A3D70 /* sat_spanish_wordOnly_v2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sat_spanish_wordOnly_v2.txt; sourceTree = "<group>"; };
+		28BDA46815FDC572000A3D70 /* sat_chinese_wordOnly_v2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sat_chinese_wordOnly_v2.txt; sourceTree = "<group>"; };
+		28FEE3B41C4ACF7900740A0D /* sat_telugu_wordOnly.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sat_telugu_wordOnly.txt; sourceTree = "<group>"; };
+		28FEE3B91C4AD60B00740A0D /* sat_arabic_wordOnly.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sat_arabic_wordOnly.txt; sourceTree = "<group>"; };
+		28FEE3BC1C4AE87A00740A0D /* translated_arabicWithEnglish.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = translated_arabicWithEnglish.txt; sourceTree = "<group>"; };
+		28FEE3BD1C4AE87A00740A0D /* translated_bengaliWithEnglish.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = translated_bengaliWithEnglish.txt; sourceTree = "<group>"; };
+		28FEE3BE1C4AE87A00740A0D /* translated_chineseSimplifiedWithEnglish.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = translated_chineseSimplifiedWithEnglish.txt; sourceTree = "<group>"; };
+		28FEE3BF1C4AE87A00740A0D /* translated_chineseTraditionalWithEnglish.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = translated_chineseTraditionalWithEnglish.txt; sourceTree = "<group>"; };
+		28FEE3C01C4AE87A00740A0D /* translated_filipinoWithEnglish.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = translated_filipinoWithEnglish.txt; sourceTree = "<group>"; };
+		28FEE3C11C4AE87A00740A0D /* translated_frenchWithEnglish.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = translated_frenchWithEnglish.txt; sourceTree = "<group>"; };
+		28FEE3C21C4AE87A00740A0D /* translated_germanWithEnglish.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = translated_germanWithEnglish.txt; sourceTree = "<group>"; };
+		28FEE3C31C4AE87A00740A0D /* translated_hebrewWithEnglish.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = translated_hebrewWithEnglish.txt; sourceTree = "<group>"; };
+		28FEE3C41C4AE87A00740A0D /* translated_hindiWithEnglish.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = translated_hindiWithEnglish.txt; sourceTree = "<group>"; };
+		28FEE3C51C4AE87A00740A0D /* translated_japaneseWithEnglish.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = translated_japaneseWithEnglish.txt; sourceTree = "<group>"; };
+		28FEE3C61C4AE87A00740A0D /* translated_koreanWithEnglish.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = translated_koreanWithEnglish.txt; sourceTree = "<group>"; };
+		28FEE3C71C4AE87A00740A0D /* translated_malayWithEnglish.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = translated_malayWithEnglish.txt; sourceTree = "<group>"; };
+		28FEE3C81C4AE87A00740A0D /* translated_polishWithEnglish.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = translated_polishWithEnglish.txt; sourceTree = "<group>"; };
+		28FEE3C91C4AE87A00740A0D /* translated_portugeseWithEnglish.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = translated_portugeseWithEnglish.txt; sourceTree = "<group>"; };
+		28FEE3CA1C4AE87A00740A0D /* translated_punjabiWithEnglish.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = translated_punjabiWithEnglish.txt; sourceTree = "<group>"; };
+		28FEE3CB1C4AE87A00740A0D /* translated_russianWithEnglish.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = translated_russianWithEnglish.txt; sourceTree = "<group>"; };
+		28FEE3CC1C4AE87A00740A0D /* translated_spanishWithEnglish.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = translated_spanishWithEnglish.txt; sourceTree = "<group>"; };
+		28FEE3CD1C4AE87A00740A0D /* translated_tamilWithEnglish.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = translated_tamilWithEnglish.txt; sourceTree = "<group>"; };
+		28FEE3CE1C4AE87A00740A0D /* translated_teluguWithEnglish.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = translated_teluguWithEnglish.txt; sourceTree = "<group>"; };
+		28FEE3CF1C4AE87A00740A0D /* translated_thaiWithEnglish.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = translated_thaiWithEnglish.txt; sourceTree = "<group>"; };
+		28FEE3D01C4AE87A00740A0D /* translated_urduWithEnglish.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = translated_urduWithEnglish.txt; sourceTree = "<group>"; };
+		28FEE3D11C4AE87A00740A0D /* translated_vietnameseWithEnglish.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = translated_vietnameseWithEnglish.txt; sourceTree = "<group>"; };
+		28FEE3E81C4AFE9C00740A0D /* FindPlatformType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindPlatformType.h; sourceTree = "<group>"; };
+		28FEE3E91C4AFE9C00740A0D /* FindPlatformType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindPlatformType.m; sourceTree = "<group>"; };
+		28FEE3EB1C4B673C00740A0D /* hearts_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hearts_1.png; sourceTree = "<group>"; };
+		28FEE3EC1C4B673C00740A0D /* hearts_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hearts_2.png; sourceTree = "<group>"; };
+		28FEE3ED1C4B673C00740A0D /* hearts_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hearts_3.png; sourceTree = "<group>"; };
+		28FEE3EE1C4B673C00740A0D /* hearts_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hearts_0.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2852AA1415E94C6700B4E865 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28891C4B15F96AF400A59EC5 /* libsqlite3.0.dylib in Frameworks */,
+				2852AA1C15E94C6700B4E865 /* UIKit.framework in Frameworks */,
+				2852AA1E15E94C6700B4E865 /* Foundation.framework in Frameworks */,
+				2852AA2015E94C6700B4E865 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2852AA0C15E94C6700B4E865 = {
+			isa = PBXGroup;
+			children = (
+				2852AA2115E94C6700B4E865 /* vocabAce */,
+				2852AA1A15E94C6700B4E865 /* Frameworks */,
+				2852AA1815E94C6700B4E865 /* Products */,
+				28BDA46115FDAA8F000A3D70 /* translations */,
+			);
+			sourceTree = "<group>";
+		};
+		2852AA1815E94C6700B4E865 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2852AA1715E94C6700B4E865 /* vocabAce.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2852AA1A15E94C6700B4E865 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2852AA1B15E94C6700B4E865 /* UIKit.framework */,
+				2852AA1D15E94C6700B4E865 /* Foundation.framework */,
+				2852AA1F15E94C6700B4E865 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2852AA2115E94C6700B4E865 /* vocabAce */ = {
+			isa = PBXGroup;
+			children = (
+				2852AA2A15E94C6700B4E865 /* AppDelegate.h */,
+				2852AA2B15E94C6700B4E865 /* AppDelegate.m */,
+				2852AA2D15E94C6700B4E865 /* ViewController.h */,
+				2852AA2E15E94C6700B4E865 /* ViewController.m */,
+				2852AA3015E94C6700B4E865 /* ViewController_iPhone.xib */,
+				2852AA3315E94C6800B4E865 /* ViewController_iPad.xib */,
+				2852AA4015E95D3B00B4E865 /* cardViewController.h */,
+				2852AA4115E95D3B00B4E865 /* cardViewController.m */,
+				2852AA4215E95D3B00B4E865 /* cardViewController.xib */,
+				28891C4715F966E200A59EC5 /* databaseModel.h */,
+				28891C4815F966E200A59EC5 /* databaseModel.m */,
+				28BDA45A15FDA8FE000A3D70 /* languageModel.h */,
+				28BDA45B15FDA8FE000A3D70 /* languageModel.m */,
+				28532E5D15FE916B00B71FC6 /* OptionsViewController.h */,
+				28532E5E15FE916B00B71FC6 /* OptionsViewController.m */,
+				28532E5F15FE916B00B71FC6 /* OptionsViewController.xib */,
+				28532E6315FE928700B71FC6 /* LanguagePickerViewController.h */,
+				28532E6415FE928700B71FC6 /* LanguagePickerViewController.m */,
+				28532E6515FE928700B71FC6 /* LanguagePickerViewController.xib */,
+				2834519516006330003B5B9C /* SetWordListViewController.h */,
+				2834519616006330003B5B9C /* SetWordListViewController.m */,
+				2834519716006330003B5B9C /* SetWordListViewController.xib */,
+				2843D89C15EEE7B800DA0513 /* stateModel.h */,
+				2843D89D15EEE7B800DA0513 /* stateModel.m */,
+				28AEAA1215F9D457009EF1D7 /* Word.h */,
+				28AEAA1315F9D458009EF1D7 /* Word.m */,
+				28BC6DFD15FBC2C400BD3485 /* setHashObject.h */,
+				28BC6DFE15FBC2C400BD3485 /* setHashObject.m */,
+				28FEE3E81C4AFE9C00740A0D /* FindPlatformType.h */,
+				28FEE3E91C4AFE9C00740A0D /* FindPlatformType.m */,
+				2852AA2215E94C6700B4E865 /* Supporting Files */,
+			);
+			path = vocabAce;
+			sourceTree = "<group>";
+		};
+		2852AA2215E94C6700B4E865 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				28FEE3BB1C4AE85000740A0D /* translatedWithEnglish */,
+				28AEAA1015F9C60A009EF1D7 /* vocab_sat_9_6f.sql */,
+				282BFE0C15FB238B00DA79EF /* vocab_sat_9_7a.sql */,
+				28BDA46815FDC572000A3D70 /* sat_chinese_wordOnly_v2.txt */,
+				28BDA46615FDC4F1000A3D70 /* sat_spanish_wordOnly_v2.txt */,
+				28FEE3B41C4ACF7900740A0D /* sat_telugu_wordOnly.txt */,
+				28FEE3B91C4AD60B00740A0D /* sat_arabic_wordOnly.txt */,
+				28891C4A15F96AF400A59EC5 /* libsqlite3.0.dylib */,
+				28523F6E1C668EE700750367 /* Launch Screen.storyboard */,
+				2852AA2315E94C6700B4E865 /* vocabAce-Info.plist */,
+				2852AA2415E94C6700B4E865 /* InfoPlist.strings */,
+				2852AA2715E94C6700B4E865 /* main.m */,
+				2852AA2915E94C6700B4E865 /* vocabAce-Prefix.pch */,
+				28FEE3EE1C4B673C00740A0D /* hearts_0.png */,
+				28FEE3EB1C4B673C00740A0D /* hearts_1.png */,
+				28FEE3EC1C4B673C00740A0D /* hearts_2.png */,
+				28FEE3ED1C4B673C00740A0D /* hearts_3.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		28BDA46115FDAA8F000A3D70 /* translations */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = translations;
+			path = vocabAce;
+			sourceTree = "<group>";
+		};
+		28FEE3BB1C4AE85000740A0D /* translatedWithEnglish */ = {
+			isa = PBXGroup;
+			children = (
+				28FEE3BC1C4AE87A00740A0D /* translated_arabicWithEnglish.txt */,
+				28FEE3BD1C4AE87A00740A0D /* translated_bengaliWithEnglish.txt */,
+				28FEE3BE1C4AE87A00740A0D /* translated_chineseSimplifiedWithEnglish.txt */,
+				28FEE3BF1C4AE87A00740A0D /* translated_chineseTraditionalWithEnglish.txt */,
+				28FEE3C01C4AE87A00740A0D /* translated_filipinoWithEnglish.txt */,
+				28FEE3C11C4AE87A00740A0D /* translated_frenchWithEnglish.txt */,
+				28FEE3C21C4AE87A00740A0D /* translated_germanWithEnglish.txt */,
+				28FEE3C31C4AE87A00740A0D /* translated_hebrewWithEnglish.txt */,
+				28FEE3C41C4AE87A00740A0D /* translated_hindiWithEnglish.txt */,
+				28FEE3C51C4AE87A00740A0D /* translated_japaneseWithEnglish.txt */,
+				28FEE3C61C4AE87A00740A0D /* translated_koreanWithEnglish.txt */,
+				28FEE3C71C4AE87A00740A0D /* translated_malayWithEnglish.txt */,
+				28FEE3C81C4AE87A00740A0D /* translated_polishWithEnglish.txt */,
+				28FEE3C91C4AE87A00740A0D /* translated_portugeseWithEnglish.txt */,
+				28FEE3CA1C4AE87A00740A0D /* translated_punjabiWithEnglish.txt */,
+				28FEE3CB1C4AE87A00740A0D /* translated_russianWithEnglish.txt */,
+				28FEE3CC1C4AE87A00740A0D /* translated_spanishWithEnglish.txt */,
+				28FEE3CD1C4AE87A00740A0D /* translated_tamilWithEnglish.txt */,
+				28FEE3CE1C4AE87A00740A0D /* translated_teluguWithEnglish.txt */,
+				28FEE3CF1C4AE87A00740A0D /* translated_thaiWithEnglish.txt */,
+				28FEE3D01C4AE87A00740A0D /* translated_urduWithEnglish.txt */,
+				28FEE3D11C4AE87A00740A0D /* translated_vietnameseWithEnglish.txt */,
+			);
+			name = translatedWithEnglish;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2852AA1615E94C6700B4E865 /* vocabAce */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2852AA3815E94C6800B4E865 /* Build configuration list for PBXNativeTarget "vocabAce" */;
+			buildPhases = (
+				2852AA1315E94C6700B4E865 /* Sources */,
+				2852AA1415E94C6700B4E865 /* Frameworks */,
+				2852AA1515E94C6700B4E865 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = vocabAce;
+			productName = vocabAce;
+			productReference = 2852AA1715E94C6700B4E865 /* vocabAce.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2852AA0E15E94C6700B4E865 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 2852AA1115E94C6700B4E865 /* Build configuration list for PBXProject "vocabAce" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2852AA0C15E94C6700B4E865;
+			productRefGroup = 2852AA1815E94C6700B4E865 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2852AA1615E94C6700B4E865 /* vocabAce */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2852AA1515E94C6700B4E865 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28FEE3DE1C4AE87A00740A0D /* translated_polishWithEnglish.txt in Resources */,
+				28FEE3E71C4AE87A00740A0D /* translated_vietnameseWithEnglish.txt in Resources */,
+				28FEE3E01C4AE87A00740A0D /* translated_punjabiWithEnglish.txt in Resources */,
+				2852AA2615E94C6700B4E865 /* InfoPlist.strings in Resources */,
+				28FEE3E61C4AE87A00740A0D /* translated_urduWithEnglish.txt in Resources */,
+				2852AA3215E94C6700B4E865 /* ViewController_iPhone.xib in Resources */,
+				28FEE3DC1C4AE87A00740A0D /* translated_koreanWithEnglish.txt in Resources */,
+				28FEE3DF1C4AE87A00740A0D /* translated_portugeseWithEnglish.txt in Resources */,
+				28523F6F1C668EE700750367 /* Launch Screen.storyboard in Resources */,
+				28FEE3E51C4AE87A00740A0D /* translated_thaiWithEnglish.txt in Resources */,
+				2852AA3515E94C6800B4E865 /* ViewController_iPad.xib in Resources */,
+				2852AA4415E95D3B00B4E865 /* cardViewController.xib in Resources */,
+				28FEE3DA1C4AE87A00740A0D /* translated_hindiWithEnglish.txt in Resources */,
+				28AEAA1115F9C60A009EF1D7 /* vocab_sat_9_6f.sql in Resources */,
+				28FEE3D71C4AE87A00740A0D /* translated_frenchWithEnglish.txt in Resources */,
+				28FEE3D61C4AE87A00740A0D /* translated_filipinoWithEnglish.txt in Resources */,
+				28FEE3E21C4AE87A00740A0D /* translated_spanishWithEnglish.txt in Resources */,
+				282BFE0D15FB238B00DA79EF /* vocab_sat_9_7a.sql in Resources */,
+				28FEE3F01C4B673C00740A0D /* hearts_2.png in Resources */,
+				28FEE3D21C4AE87A00740A0D /* translated_arabicWithEnglish.txt in Resources */,
+				28FEE3D31C4AE87A00740A0D /* translated_bengaliWithEnglish.txt in Resources */,
+				28FEE3D51C4AE87A00740A0D /* translated_chineseTraditionalWithEnglish.txt in Resources */,
+				28FEE3D91C4AE87A00740A0D /* translated_hebrewWithEnglish.txt in Resources */,
+				28BDA46715FDC4F1000A3D70 /* sat_spanish_wordOnly_v2.txt in Resources */,
+				28FEE3EF1C4B673C00740A0D /* hearts_1.png in Resources */,
+				28FEE3F11C4B673C00740A0D /* hearts_3.png in Resources */,
+				28BDA46915FDC572000A3D70 /* sat_chinese_wordOnly_v2.txt in Resources */,
+				28FEE3F21C4B673C00740A0D /* hearts_0.png in Resources */,
+				28FEE3DB1C4AE87A00740A0D /* translated_japaneseWithEnglish.txt in Resources */,
+				28FEE3E31C4AE87A00740A0D /* translated_tamilWithEnglish.txt in Resources */,
+				28532E6115FE916B00B71FC6 /* OptionsViewController.xib in Resources */,
+				28FEE3E11C4AE87A00740A0D /* translated_russianWithEnglish.txt in Resources */,
+				28FEE3E41C4AE87A00740A0D /* translated_teluguWithEnglish.txt in Resources */,
+				28FEE3D41C4AE87A00740A0D /* translated_chineseSimplifiedWithEnglish.txt in Resources */,
+				28532E6715FE928700B71FC6 /* LanguagePickerViewController.xib in Resources */,
+				28FEE3D81C4AE87A00740A0D /* translated_germanWithEnglish.txt in Resources */,
+				2834519916006330003B5B9C /* SetWordListViewController.xib in Resources */,
+				28FEE3DD1C4AE87A00740A0D /* translated_malayWithEnglish.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2852AA1315E94C6700B4E865 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2852AA2815E94C6700B4E865 /* main.m in Sources */,
+				2852AA2C15E94C6700B4E865 /* AppDelegate.m in Sources */,
+				2852AA2F15E94C6700B4E865 /* ViewController.m in Sources */,
+				2852AA4315E95D3B00B4E865 /* cardViewController.m in Sources */,
+				28FEE3BA1C4AD60B00740A0D /* sat_arabic_wordOnly.txt in Sources */,
+				2843D89E15EEE7B800DA0513 /* stateModel.m in Sources */,
+				28891C4915F966E200A59EC5 /* databaseModel.m in Sources */,
+				28AEAA1415F9D458009EF1D7 /* Word.m in Sources */,
+				28BC6DFF15FBC2C400BD3485 /* setHashObject.m in Sources */,
+				28BDA45C15FDA8FE000A3D70 /* languageModel.m in Sources */,
+				28FEE3EA1C4AFE9C00740A0D /* FindPlatformType.m in Sources */,
+				28FEE3B51C4ACF7900740A0D /* sat_telugu_wordOnly.txt in Sources */,
+				28532E6015FE916B00B71FC6 /* OptionsViewController.m in Sources */,
+				28532E6615FE928700B71FC6 /* LanguagePickerViewController.m in Sources */,
+				2834519816006330003B5B9C /* SetWordListViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2852AA2415E94C6700B4E865 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2852AA2515E94C6700B4E865 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2852AA3015E94C6700B4E865 /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2852AA3115E94C6700B4E865 /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		2852AA3315E94C6800B4E865 /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2852AA3415E94C6800B4E865 /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2852AA3615E94C6800B4E865 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2852AA3715E94C6800B4E865 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2852AA3915E94C6800B4E865 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "vocabAce/vocabAce-Prefix.pch";
+				INFOPLIST_FILE = "vocabAce/vocabAce-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2852AA3A15E94C6800B4E865 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "vocabAce/vocabAce-Prefix.pch";
+				INFOPLIST_FILE = "vocabAce/vocabAce-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2852AA1115E94C6700B4E865 /* Build configuration list for PBXProject "vocabAce" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2852AA3615E94C6800B4E865 /* Debug */,
+				2852AA3715E94C6800B4E865 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2852AA3815E94C6800B4E865 /* Build configuration list for PBXNativeTarget "vocabAce" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2852AA3915E94C6800B4E865 /* Debug */,
+				2852AA3A15E94C6800B4E865 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2852AA0E15E94C6700B4E865 /* Project object */;
+}
